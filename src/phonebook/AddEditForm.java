@@ -65,6 +65,9 @@ public class AddEditForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(221, 212, 179));
+
+        JTextName.setBackground(new java.awt.Color(237, 231, 225));
         JTextName.setFont(new java.awt.Font("Segoe UI Historic", 0, 14)); // NOI18N
         JTextName.setBorder(javax.swing.BorderFactory.createLineBorder(null));
         JTextName.addActionListener(new java.awt.event.ActionListener() {
@@ -73,6 +76,7 @@ public class AddEditForm extends javax.swing.JFrame {
             }
         });
 
+        JTextPhone.setBackground(new java.awt.Color(237, 231, 225));
         JTextPhone.setFont(new java.awt.Font("Segoe UI Historic", 0, 14)); // NOI18N
         JTextPhone.setBorder(javax.swing.BorderFactory.createLineBorder(null));
         JTextPhone.addActionListener(new java.awt.event.ActionListener() {
@@ -81,6 +85,7 @@ public class AddEditForm extends javax.swing.JFrame {
             }
         });
 
+        jTextEmail.setBackground(new java.awt.Color(237, 231, 225));
         jTextEmail.setFont(new java.awt.Font("Segoe UI Historic", 0, 14)); // NOI18N
         jTextEmail.setBorder(javax.swing.BorderFactory.createLineBorder(null));
         jTextEmail.addActionListener(new java.awt.event.ActionListener() {
@@ -113,8 +118,9 @@ public class AddEditForm extends javax.swing.JFrame {
         });
 
         jTextField1.setEditable(false);
+        jTextField1.setBackground(new java.awt.Color(237, 231, 225));
         jTextField1.setText("Add Contact Mode");
-        jTextField1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jTextField1.setBorder(new javax.swing.border.MatteBorder(null));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
